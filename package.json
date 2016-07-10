@@ -1,7 +1,7 @@
 { 
   "name": "seneca4_mongodb",
   "version": "1.0.0",
-  "description": "MongoDB microservice example",
+  "description": "MongoDB-Seneca integration example",
   "keywords": [
     "micro",
     "service",
