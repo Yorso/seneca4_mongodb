@@ -1,13 +1,13 @@
 ![Seneca](http://senecajs.org/files/assets/seneca-logo.png)
 
 ## What is this? 
-__[MongoDB](https://docs.mongodb.com/v3.0/introduction/)__ microservice example
+__[MongoDB](https://docs.mongodb.com/v3.0/introduction/)__-Seneca integration example 
 
-Ejemplo de microservicios con __MongoDB__ 
+Ejemplo de integración __MongoDB__-Seneca 
   
 
 ## What does it do?
-__CRUD (Create Read Update Delete) MongoDB aplication__
+__CRUD (Create Read Update Delete) MongoDB application__
 
 You need virtual or physical machine where microservice will run. You can use your localhost by simply changing port number (it must be different from client.js).
 
