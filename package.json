@@ -1,0 +1,38 @@
+{ 
+  "name": "microservices4_Mongodb",
+  "version": "1.0.0",
+  "description": "MongoDB microservice example",
+  "keywords": [
+    "micro",
+    "service",
+    "microservice",
+    "micro-service",
+    "microservices",
+    "micro-services",
+    "services",
+    "micro services",
+    "micro service",
+    "mongodb",
+    "mongo-db",
+    "mongo",
+    "mongo db"
+  ],
+  "main": "client.js",
+  "author": "Jorge Guzón Fernández",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yorso/microservices_seneca/edit/master/microservices4_Mongodb"
+  },
+  "bugs": {
+    "url": "https://github.com/Yorso/microservices_seneca/issues"
+  },
+  "homepage": "https://github.com/Yorso/microservices_seneca/edit/master/microservices4_Mongodb",
+  "dependencies": {
+    "express": "^4.13.4",
+    "seneca": "^2.1.0",
+    "seneca-mongo-store": "^0.2.0",
+    "seneca-entity": "^1.0.0"
+  }
+}
+
