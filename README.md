@@ -1,3 +1,5 @@
+![Seneca](http://senecajs.org/files/assets/seneca-logo.png)
+
 ## What is this? 
 __[MongoDB](https://docs.mongodb.com/v3.0/introduction/)__ microservice example
 
@@ -15,16 +17,28 @@ __Aplicación CRUD (Create Read Update Delete) con MongoDB__
 
 Necesitarás una máquina virtual o física donde se ejecutará el microservicio y debe tener instalado node.js, npm, express, seneca y MongoDB. Puedes usar tu localhost simplemete cambiando el puerto (debe ser diferente al de client.js).
 
+## Pre-requisites
+You need to have installed on localhost and remote host - Necesitas tener instalado en local y en remoto: node.js, npm, express, seneca and seneca-entity.
 
-## Executing
-First of all, __install seneca-mongo-store__ if you don't in remote host - Antes de nada, __instala seneca-mongo-store__ si no lo tienes instalado en la máquina remota:
+For Debian and Debian-derived operating systems - Para Debian y sistemas operativos derivados:
+```
+$ sudo apt install nodejs
+
+$ sudo apt install npm
+
+$ npm install express
+
+$ npm install seneca
+
+$ npm install seneca-entity
+```
+__Install seneca-mongo-store__ if you don't on remote host - __Instala seneca-mongo-store__ si no lo tienes instalado en la máquina remota:
 ```
 $ npm install seneca-mongo-store
 ```
-You must install __seneca-entity__ in localhost and remote host - Debes instalar __seneca-entity__ en local y en remoto:
-```
-$ npm install seneca-entity
-```
+
+
+## Executing
 Be sure __MongoDB server is running on remote host__ (where service_user.js file is) - Asegúrate que el __servidor de MongoDB está ejecutándose en el host remoto__ (donde está el archivo service_user.js):
 ```
 $ sudo service mongod status => active (running)
@@ -50,3 +64,9 @@ $ nodejs service_user.js
    Update user name by id: [http://localhost:3000/users/updateId/577c40be46febb975c1f3282/Paul Simpson](http://localhost:3000/users/updateId/577c40be46febb975c1f3282/Paul Simpson)    //Change id
    
    Remove an user by id: [http://localhost:3000/users/deleteId/577cc3a16f5a22e20d054da0](http://localhost:3000/users/deleteId/577cc3a16f5a22e20d054da0)     //Change id
+
+
+## References
+All documentation in [Seneca.js](http://senecajs.org) site.
+
+Reference book: [Developing Microservices with Node.js - David González](https://www.packtpub.com/web-development/developing-microservices-nodejs)
