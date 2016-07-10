@@ -9,13 +9,13 @@ Ejemplo de microservicios con __MongoDB__
 ## What does it do?
 __CRUD (Create Read Update Delete) MongoDB aplication__
 
-You need virtual or physical machine where microservice will run and it must have installed node.js, npm, express , seneca and MongoDB. You can use your localhost by simply changing port number (it must be different from client.js).
+You need virtual or physical machine where microservice will run. You can use your localhost by simply changing port number (it must be different from client.js).
 
 ***
 
 __Aplicación CRUD (Create Read Update Delete) con MongoDB__
 
-Necesitarás una máquina virtual o física donde se ejecutará el microservicio y debe tener instalado node.js, npm, express, seneca y MongoDB. Puedes usar tu localhost simplemete cambiando el puerto (debe ser diferente al de client.js).
+Necesitarás una máquina virtual o física donde se ejecutará el microservicio. Puedes usar tu localhost simplemete cambiando el puerto (debe ser diferente al de client.js).
 
 ## Pre-requisites
 You need to have installed on localhost and remote host - Necesitas tener instalado en local y en remoto: node.js, npm, express, seneca and seneca-entity.
