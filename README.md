@@ -18,7 +18,7 @@ __Aplicación CRUD (Create Read Update Delete) con MongoDB__
 Necesitarás una máquina virtual o física donde se ejecutará el microservicio. Puedes usar tu localhost simplemete cambiando el puerto (debe ser diferente al de client.js).
 
 ## Pre-requisites
-You need to have installed on localhost and remote host - Necesitas tener instalado en local y en remoto: node.js, npm, express, seneca and seneca-entity.
+You need to have installed on localhost and remote host - Necesitas tener instalado en local y en remoto: __node.js, npm, express, seneca and seneca-entity__.
 
 For Debian and Debian-derived operating systems - Para Debian y sistemas operativos derivados:
 ```
