@@ -1,5 +1,5 @@
 { 
-  "name": "microservices4_Mongodb",
+  "name": "seneca4_mongodb",
   "version": "1.0.0",
   "description": "MongoDB microservice example",
   "keywords": [
@@ -22,12 +22,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Yorso/microservices_seneca/edit/master/microservices4_Mongodb"
+    "url": "https://github.com/Yorso/seneca4_mongodb"
   },
   "bugs": {
-    "url": "https://github.com/Yorso/microservices_seneca/issues"
+    "url": "https://github.com/Yorso/seneca4_mongodb/issues"
   },
-  "homepage": "https://github.com/Yorso/microservices_seneca/edit/master/microservices4_Mongodb",
+  "homepage": "https://github.com/Yorso/seneca4_mongodb",
   "dependencies": {
     "express": "^4.13.4",
     "seneca": "^2.1.0",
