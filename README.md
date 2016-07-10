@@ -1,9 +1,9 @@
 ![Seneca](http://senecajs.org/files/assets/seneca-logo.png)
 
 ## What is this? 
-__[MongoDB](https://docs.mongodb.com/v3.0/introduction/)__-Seneca integration example 
+__[MongoDB](https://docs.mongodb.com/v3.0/introduction/)-Seneca__ integration example 
 
-Ejemplo de integración __MongoDB__-Seneca 
+Ejemplo de integración __MongoDB-Seneca__ 
   
 
 ## What does it do?
